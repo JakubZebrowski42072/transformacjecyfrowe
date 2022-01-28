@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+    body {
+        margin: 100px 100px 200px 200px;
+        background-color:black;
+    }
+    h1 {
+        color:seagreen;
+        font-famly:verdana;
+    }
+    form { 
+        width: 100%;
+        background-color: steelblue;
+        padding: 30px;
+        font-size: 10px;
+
+    }
+    label { 
+        color: white;
+        margin: 10px 
+
+    }
+    input[type=text] {
+        width: 100px;
+        height: 20px;
+        font-size: 30px;
+    }
+    textarea {
+        width: 100%;
+        height: 250px;
+        font-size: 40px;
+
+    }
+    input[type=checkbox] {
+        width: 400%;
+        height: 10px;
+    }
+    button {
+        width: 100%;
+        height: 40px;
+        background-color: tomato;
+    }
+
+    }
+ </style>
+ <script>
+     function show() {
+         alert("Dziękujemy za złozenie zamówienia");
+             }
+ </script>
+<title>Życie i twórczość</title>
+<link rel="icon" type="image/x-icon" href="./JZ-icon.ico">
+</head>
+<body>
+<h1>Formularz kontaktowy z Jakubem Żebrowskim</h1>
+
+<p>Formularz kontaktowy</p>
+
+<form >
+
+<label for="imie">Imię</label>
+<br>
+<br>
+<input type="text" id="imie"><br>
+<label for="nazwisko">Nazwisko</label>
+<br>
+<br>
+<input type="text" id="nazwisko"><br>
+<label for="rocznik">Rocznik</label>
+<br>
+<br>
+<input type="text" id="rocznik"><br>
+<label for="opis">Opis zamówienia</label>
+<br>
+<br>
+<textarea type="text" id="opis"></textarea>
+<br>
+<br>
+<input type="checkbox" id="check1"><label for="check1">Zapoznałem się z Regulaminem</label>
+<br>
+<br>
+<button onclick="show()">Wyślij zamówienie</button>
+
+</form>
+
+<a href="index.html">Powrót do strony głównej</a>
+
+
+
+
+</body>
+</html>
